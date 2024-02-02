@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  margin: 6px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button.remove-button {
+  background-color: #f44336;
+}
+
+/* Game Clock Controls */
+
+.clock-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clock-controls button {
+  margin-right: 10px;
+}
+
+.button-group {
+  display: flex;
+}
+
+/* Showdown Table */
+
+.showdown-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showdown-table h2 {
+  flex-grow: 1;
+}
+
+.showdown-table button {
+  margin-left: 10px;
+}
+
+/* Away and Home Scoring */
+
+.team-scoring {
+  margin-bottom: 20px;
+}
+
+.team-scoring h2 {
+  margin-bottom: 10px;
+}
